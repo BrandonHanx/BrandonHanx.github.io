@@ -2,8 +2,8 @@
   "name": "Aspirant Brandon",
   "short_name": "Aspirant Brandon",
   "lang": "en-us",
-  "theme_color": "#795548",
-  "background_color": "#795548",
+  "theme_color": "rgb(0, 136, 204)",
+  "background_color": "rgb(0, 136, 204)",
   "icons": [{
     "src": "/images/icon_hud1656e772891b9a785958d42f6bb5312_351852_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
