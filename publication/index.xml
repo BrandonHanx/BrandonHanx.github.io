@@ -5,12 +5,20 @@
     <link>https://BrandonHanx.github.io/publication/</link>
       <atom:link href="https://BrandonHanx.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Thu, 18 Jun 2020 19:45:01 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
       <link>https://BrandonHanx.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Inverse Design of Metasurface Optical Filters Using Deep Neural Network With High Degrees of Freedom</title>
+      <link>https://BrandonHanx.github.io/publication/inverse-design-of-metasurface-optical-filters-using-deep-neural-network-with-high-degrees-of-freedom/</link>
+      <pubDate>Thu, 18 Jun 2020 19:45:01 +0800</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/inverse-design-of-metasurface-optical-filters-using-deep-neural-network-with-high-degrees-of-freedom/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

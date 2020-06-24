@@ -5,12 +5,28 @@
     <link>https://BrandonHanx.github.io/categories/</link>
       <atom:link href="https://BrandonHanx.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Thu, 18 Jun 2020 19:45:01 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Categories</title>
       <link>https://BrandonHanx.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
+      <pubDate>Thu, 18 Jun 2020 19:45:01 +0800</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nano Optics</title>
+      <link>https://BrandonHanx.github.io/categories/nano-optics/</link>
+      <pubDate>Thu, 18 Jun 2020 19:45:01 +0800</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/nano-optics/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

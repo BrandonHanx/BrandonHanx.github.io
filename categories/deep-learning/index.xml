@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aspirant Brandon</title>
-    <link>https://BrandonHanx.github.io/</link>
-      <atom:link href="https://BrandonHanx.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Aspirant Brandon</description>
+    <title>Deep Learning | Aspirant Brandon</title>
+    <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
+      <atom:link href="https://BrandonHanx.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Thu, 18 Jun 2020 19:45:01 +0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Aspirant Brandon</title>
-      <link>https://BrandonHanx.github.io/</link>
+      <title>Deep Learning</title>
+      <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
     </image>
     
     <item>
