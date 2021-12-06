@@ -5,12 +5,20 @@
     <link>https://BrandonHanx.github.io/</link>
       <atom:link href="https://BrandonHanx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiao Han 韩啸</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Thu, 18 Jun 2020 19:45:01 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Mon, 06 Dec 2021 18:09:39 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Xiao Han 韩啸</title>
       <link>https://BrandonHanx.github.io/</link>
     </image>
+    
+    <item>
+      <title>Text-Based Person Search with Limited Data</title>
+      <link>https://BrandonHanx.github.io/publication/textreid/</link>
+      <pubDate>Mon, 06 Dec 2021 18:09:39 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/textreid/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inverse Design of Metasurface Optical Filters Using Deep Neural Network With High Degrees of Freedom</title>
