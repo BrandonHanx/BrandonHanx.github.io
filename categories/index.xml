@@ -5,7 +5,7 @@
     <link>https://BrandonHanx.github.io/categories/</link>
       <atom:link href="https://BrandonHanx.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Mon, 06 Dec 2021 18:09:39 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Wed, 06 Jul 2022 22:53:33 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Categories</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Compositional Retrieval</title>
+      <link>https://BrandonHanx.github.io/categories/compositional-retrieval/</link>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/compositional-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cross-modal Retrieval</title>
       <link>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</link>
-      <pubDate>Mon, 06 Dec 2021 18:09:39 +0000</pubDate>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
       <guid>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</guid>
       <description></description>
     </item>
@@ -23,15 +31,31 @@
     <item>
       <title>Deep Learning</title>
       <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
-      <pubDate>Mon, 06 Dec 2021 18:09:39 +0000</pubDate>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
       <guid>https://BrandonHanx.github.io/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fashion</title>
+      <link>https://BrandonHanx.github.io/categories/fashion/</link>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/fashion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V&#43;L</title>
+      <link>https://BrandonHanx.github.io/categories/v&#43;l/</link>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/v&#43;l/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Person ReID</title>
       <link>https://BrandonHanx.github.io/categories/person-reid/</link>
-      <pubDate>Mon, 06 Dec 2021 18:09:39 +0000</pubDate>
+      <pubDate>Mon, 25 Oct 2021 18:09:39 +0000</pubDate>
       <guid>https://BrandonHanx.github.io/categories/person-reid/</guid>
       <description></description>
     </item>

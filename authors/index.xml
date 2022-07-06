@@ -5,7 +5,7 @@
     <link>https://BrandonHanx.github.io/authors/</link>
       <atom:link href="https://BrandonHanx.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Mon, 06 Dec 2021 18:09:39 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Wed, 06 Jul 2022 22:53:33 +0200</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>Xiao Han | Licheng Yu | Xiatian Zhu | Li Zhang | Yi-Zhe Song | Tao Xiang</title>
+      <link>https://BrandonHanx.github.io/authors/xiao-han-licheng-yu-xiatian-zhu-li-zhang-yi-zhe-song-tao-xiang/</link>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/authors/xiao-han-licheng-yu-xiatian-zhu-li-zhang-yi-zhe-song-tao-xiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiao Han | Sen He | Li Zhang | Yi-Zhe Song | Tao Xiang</title>
+      <link>https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-yi-zhe-song-tao-xiang/</link>
+      <pubDate>Sat, 25 Jun 2022 22:26:32 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-yi-zhe-song-tao-xiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Xiao Han | Sen He | Li Zhang | Tao Xiang</title>
       <link>https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-tao-xiang/</link>
-      <pubDate>Mon, 06 Dec 2021 18:09:39 +0000</pubDate>
+      <pubDate>Mon, 25 Oct 2021 18:09:39 +0000</pubDate>
       <guid>https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-tao-xiang/</guid>
       <description></description>
     </item>
