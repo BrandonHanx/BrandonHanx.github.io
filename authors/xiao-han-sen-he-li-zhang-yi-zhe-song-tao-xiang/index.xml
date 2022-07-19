@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiao Han | Sen He | Li Zhang | Yi-Zhe Song | Tao Xiang | Xiao Han 韩啸</title>
+    <link>https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-yi-zhe-song-tao-xiang/</link>
+      <atom:link href="https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-yi-zhe-song-tao-xiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiao Han | Sen He | Li Zhang | Yi-Zhe Song | Tao Xiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Sat, 25 Jun 2022 22:26:32 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Xiao Han | Sen He | Li Zhang | Yi-Zhe Song | Tao Xiang</title>
+      <link>https://BrandonHanx.github.io/authors/xiao-han-sen-he-li-zhang-yi-zhe-song-tao-xiang/</link>
+    </image>
+    
+    <item>
+      <title>UIGR: Unified Interactive Garment Retrieval</title>
+      <link>https://BrandonHanx.github.io/publication/uigr/</link>
+      <pubDate>Sat, 25 Jun 2022 22:26:32 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/uigr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compositional Retrieval | Xiao Han 韩啸</title>
+    <link>https://BrandonHanx.github.io/categories/compositional-retrieval/</link>
+      <atom:link href="https://BrandonHanx.github.io/categories/compositional-retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <description>Compositional Retrieval</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Wed, 06 Jul 2022 22:53:33 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Compositional Retrieval</title>
+      <link>https://BrandonHanx.github.io/categories/compositional-retrieval/</link>
+    </image>
+    
+    <item>
+      <title>FashionViL: Fashion-Focused Vision-and-Language Representation Learning</title>
+      <link>https://BrandonHanx.github.io/publication/fashionvil/</link>
+      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/fashionvil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UIGR: Unified Interactive Garment Retrieval</title>
+      <link>https://BrandonHanx.github.io/publication/uigr/</link>
+      <pubDate>Sat, 25 Jun 2022 22:26:32 +0200</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/uigr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
