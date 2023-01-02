@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Xiao Han 韩啸</title>
+    <title>Authors | Xiao Han @ Vision</title>
     <link>https://BrandonHanx.github.io/authors/</link>
       <atom:link href="https://BrandonHanx.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 02 Aug 2022 07:26:47 +0100</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Authors</title>
       <link>https://BrandonHanx.github.io/authors/</link>
     </image>
@@ -57,19 +57,34 @@
       <link>https://BrandonHanx.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://BrandonHanx.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Xiao Han is a Ph.D. student at 
+      <description>&lt;p&gt;I am a Ph.D. student at 
 &lt;a href=&#34;https://www.surrey.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Surrey&lt;/a&gt;
  under the supervision of 
 &lt;a href=&#34;http://personal.ee.surrey.ac.uk/Personal/T.Xiang/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Tao Xiang&lt;/a&gt;
-. He obtained his bachelor&amp;rsquo;s degree at 
+ and 
+&lt;a href=&#34;http://personal.ee.surrey.ac.uk/Personal/Y.Song/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Yi-Zhe Song.&lt;/a&gt;
+ I also work closely with 
+&lt;a href=&#34;https://surrey-uplab.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Xiatian Zhu.&lt;/a&gt;
+ Before coming to Surrey, I obtained my bachelor&amp;rsquo;s degree at 
 &lt;a href=&#34;http://www.zju.edu.cn/english/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhejiang University&lt;/a&gt;
- in 2020. He has several academic experiences at 
-&lt;a href=&#34;https://umich.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Michigan&lt;/a&gt;
-, 
+ in 2020. I have several academic experiences at 
+&lt;a href=&#34;https://umich.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Michigan,&lt;/a&gt;
+ 
 &lt;a href=&#34;https://www.wias.org.cn/english/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Westlake University&lt;/a&gt;
  and 
-&lt;a href=&#34;https://www.fudan.edu.cn/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fudan University&lt;/a&gt;
-.&lt;/p&gt;
+&lt;a href=&#34;https://www.fudan.edu.cn/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fudan University.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;I am broadly interested in the field of Deep Learning. My current research interest lies in the intersection between Computer Vision and Natural Language Processing (i.e., vision‑language). My research goal is to build multi‑modal AI systems that can be used in real‑world applications (e.g., e‑commerce platform). My expertise includes but not limited to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Vision‑language pre‑training and (parameter‑efficient) adaptation;&lt;/li&gt;
+&lt;li&gt;Vision‑language downstream tasks (e.g., uni-/cross‑/multi-modal image retrieval, image
+captioning, text‑based/guided image generation/editing);&lt;/li&gt;
+&lt;li&gt;Some specific tasks (e.g., person ReID).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more details, see my 
+&lt;a href=&#34;files/cv.pdf&#34;&gt;academic CV.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Feel free to poke me if you want to discuss, collaborate, or just say hi. 😊&lt;/p&gt;
 </description>
     </item>
     

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cross-modal Retrieval | Xiao Han 韩啸</title>
+    <title>Cross-modal Retrieval | Xiao Han @ Vision</title>
     <link>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</link>
       <atom:link href="https://BrandonHanx.github.io/categories/cross-modal-retrieval/index.xml" rel="self" type="application/rss+xml" />
     <description>Cross-modal Retrieval</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Wed, 06 Jul 2022 22:53:33 +0200</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Cross-modal Retrieval</title>
       <link>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</link>
     </image>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xiao Han 韩啸</title>
+    <title>Xiao Han @ Vision</title>
     <link>https://BrandonHanx.github.io/</link>
       <atom:link href="https://BrandonHanx.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Xiao Han 韩啸</description>
+    <description>Xiao Han @ Vision</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 02 Aug 2022 07:26:47 +0100</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Xiao Han 韩啸</title>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Xiao Han @ Vision</title>
       <link>https://BrandonHanx.github.io/</link>
     </image>
     
