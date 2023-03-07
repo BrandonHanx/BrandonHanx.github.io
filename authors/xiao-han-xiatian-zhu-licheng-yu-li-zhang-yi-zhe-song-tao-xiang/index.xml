@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiao Han | Xiatian Zhu | Licheng Yu | Li Zhang | Yi-Zhe Song | Tao Xiang | Xiao Han @ Vision</title>
+    <link>https://BrandonHanx.github.io/authors/xiao-han-xiatian-zhu-licheng-yu-li-zhang-yi-zhe-song-tao-xiang/</link>
+      <atom:link href="https://BrandonHanx.github.io/authors/xiao-han-xiatian-zhu-licheng-yu-li-zhang-yi-zhe-song-tao-xiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiao Han | Xiatian Zhu | Licheng Yu | Li Zhang | Yi-Zhe Song | Tao Xiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 07 Mar 2023 10:58:49 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Xiao Han | Xiatian Zhu | Licheng Yu | Li Zhang | Yi-Zhe Song | Tao Xiang</title>
+      <link>https://BrandonHanx.github.io/authors/xiao-han-xiatian-zhu-licheng-yu-li-zhang-yi-zhe-song-tao-xiang/</link>
+    </image>
+    
+    <item>
+      <title>FAME-ViL: Multi-Tasking Vision-Language Model for Heterogeneous Fashion Tasks</title>
+      <link>https://BrandonHanx.github.io/publication/fame-vil/</link>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/fame-vil/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

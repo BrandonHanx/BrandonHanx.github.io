@@ -5,7 +5,7 @@
     <link>https://BrandonHanx.github.io/categories/</link>
       <atom:link href="https://BrandonHanx.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 02 Aug 2022 07:26:47 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 07 Mar 2023 10:58:49 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Categories</title>
@@ -13,10 +13,50 @@
     </image>
     
     <item>
+      <title>Compositional Retrieval</title>
+      <link>https://BrandonHanx.github.io/categories/compositional-retrieval/</link>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/compositional-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-modal Retrieval</title>
+      <link>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</link>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Learning</title>
       <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
-      <pubDate>Tue, 02 Aug 2022 07:26:47 +0100</pubDate>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
       <guid>https://BrandonHanx.github.io/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fashion</title>
+      <link>https://BrandonHanx.github.io/categories/fashion/</link>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/fashion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Captioning</title>
+      <link>https://BrandonHanx.github.io/categories/image-captioning/</link>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/image-captioning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V&#43;L</title>
+      <link>https://BrandonHanx.github.io/categories/v&#43;l/</link>
+      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/v&#43;l/</guid>
       <description></description>
     </item>
     
@@ -25,38 +65,6 @@
       <link>https://BrandonHanx.github.io/categories/image-retrieval/</link>
       <pubDate>Tue, 02 Aug 2022 07:26:47 +0100</pubDate>
       <guid>https://BrandonHanx.github.io/categories/image-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>V&#43;L</title>
-      <link>https://BrandonHanx.github.io/categories/v&#43;l/</link>
-      <pubDate>Tue, 02 Aug 2022 07:26:47 +0100</pubDate>
-      <guid>https://BrandonHanx.github.io/categories/v&#43;l/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Compositional Retrieval</title>
-      <link>https://BrandonHanx.github.io/categories/compositional-retrieval/</link>
-      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
-      <guid>https://BrandonHanx.github.io/categories/compositional-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cross-modal Retrieval</title>
-      <link>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</link>
-      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
-      <guid>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fashion</title>
-      <link>https://BrandonHanx.github.io/categories/fashion/</link>
-      <pubDate>Wed, 06 Jul 2022 22:53:33 +0200</pubDate>
-      <guid>https://BrandonHanx.github.io/categories/fashion/</guid>
       <description></description>
     </item>
     
