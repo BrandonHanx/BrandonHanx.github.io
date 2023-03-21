@@ -82,11 +82,11 @@
  and 
 &lt;a href=&#34;https://www.fudan.edu.cn/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fudan University.&lt;/a&gt;
 &lt;/p&gt;
-&lt;p&gt;I am broadly interested in the field of Deep Learning. My current research interest lies in the intersection between Computer Vision and Natural Language Processing (i.e., vision‑language). My research goal is to build multi‑modal AI systems that can be used in real‑world applications (e.g., e‑commerce platform). My expertise includes but not limited to&lt;/p&gt;
+&lt;p&gt;I am broadly interested in the field of Deep Learning. My current research interest lies in the intersection between Computer Vision and Natural Language Processing (i.e., &lt;strong&gt;vision‑language&lt;/strong&gt;). My research goal is to build multi‑modal AI systems that can be used in real‑world applications (e.g., e‑commerce platform). My expertise includes but not limited to&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Vision‑language pre‑training and (parameter‑efficient) adaptation;&lt;/li&gt;
-&lt;li&gt;Vision‑language downstream tasks (e.g., uni-/cross‑/multi-modal image retrieval, image
-captioning, text‑based/guided image generation/editing);&lt;/li&gt;
+&lt;li&gt;Vision‑language &lt;strong&gt;pre‑training&lt;/strong&gt; and (parameter‑efficient) &lt;strong&gt;adaptation&lt;/strong&gt;;&lt;/li&gt;
+&lt;li&gt;Vision‑language downstream tasks (e.g., uni-/cross‑/multi-modal image &lt;strong&gt;retrieval&lt;/strong&gt;, image
+&lt;strong&gt;captioning&lt;/strong&gt;, text‑based/guided image &lt;strong&gt;generation/editing&lt;/strong&gt;);&lt;/li&gt;
 &lt;li&gt;Some specific tasks (e.g., person ReID).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For more details, see my 
