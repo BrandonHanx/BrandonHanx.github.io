@@ -5,12 +5,44 @@
     <link>https://BrandonHanx.github.io/categories/</link>
       <atom:link href="https://BrandonHanx.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 07 Mar 2023 10:58:49 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 06 Jun 2023 13:26:24 +0100</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
       <title>Categories</title>
       <link>https://BrandonHanx.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>3D</title>
+      <link>https://BrandonHanx.github.io/categories/3d/</link>
+      <pubDate>Tue, 06 Jun 2023 13:26:24 +0100</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
+      <pubDate>Tue, 06 Jun 2023 13:26:24 +0100</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diffusion Models</title>
+      <link>https://BrandonHanx.github.io/categories/diffusion-models/</link>
+      <pubDate>Tue, 06 Jun 2023 13:26:24 +0100</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/diffusion-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Head Avatar</title>
+      <link>https://BrandonHanx.github.io/categories/head-avatar/</link>
+      <pubDate>Tue, 06 Jun 2023 13:26:24 +0100</pubDate>
+      <guid>https://BrandonHanx.github.io/categories/head-avatar/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Compositional Retrieval</title>
@@ -25,14 +57,6 @@
       <link>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</link>
       <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
       <guid>https://BrandonHanx.github.io/categories/cross-modal-retrieval/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://BrandonHanx.github.io/categories/deep-learning/</link>
-      <pubDate>Tue, 07 Mar 2023 10:58:49 +0000</pubDate>
-      <guid>https://BrandonHanx.github.io/categories/deep-learning/</guid>
       <description></description>
     </item>
     

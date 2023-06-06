@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diffusion Models | Xiao Han @ Vision</title>
+    <link>https://BrandonHanx.github.io/categories/diffusion-models/</link>
+      <atom:link href="https://BrandonHanx.github.io/categories/diffusion-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Diffusion Models</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Xiao (Brandon) Han</copyright><lastBuildDate>Tue, 06 Jun 2023 13:26:24 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:square]</url>
+      <title>Diffusion Models</title>
+      <link>https://BrandonHanx.github.io/categories/diffusion-models/</link>
+    </image>
+    
+    <item>
+      <title>HeadSculpt: Crafting 3D Head Avatars with Text</title>
+      <link>https://BrandonHanx.github.io/publication/headsculpt/</link>
+      <pubDate>Tue, 06 Jun 2023 13:26:24 +0100</pubDate>
+      <guid>https://BrandonHanx.github.io/publication/headsculpt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
