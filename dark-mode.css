@@ -1,0 +1,363 @@
+/* Dark mode styles for Tufte CSS */
+:root {
+  --background-color-light: #fffff8;
+  --text-color-light: #111;
+  --link-color-light: #111;
+  --link-hover-color-light: #000;
+  --border-color-light: #ccc;
+
+  --background-color-dark: #1a1a1a;
+  --text-color-dark: #e0e0e0;
+  --link-color-dark: #9ecaed;
+  --link-hover-color-dark: #ffffff;
+  --border-color-dark: #444;
+
+  --transition-speed: 0.3s;
+}
+
+/* Page transition effects */
+body {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+  transition: background-color var(--transition-speed) ease,
+              color var(--transition-speed) ease,
+              opacity var(--transition-speed) ease;
+  opacity: 1;
+}
+
+body.fade-in {
+  animation: fadeIn var(--transition-speed) ease-in;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+a:link, a:visited {
+  color: var(--link-color-light);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color-light);
+}
+
+hr {
+  border-top: 1px solid var(--border-color-light);
+  transition: border-color 0.3s ease;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+body.dark-mode a:link,
+body.dark-mode a:visited {
+  color: var(--link-color-dark);
+}
+
+body.dark-mode a:hover {
+  color: var(--link-hover-color-dark);
+}
+
+body.dark-mode hr {
+  border-top: 1px solid var(--border-color-dark);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 999;
+  background: none;
+  border: 1px solid var(--border-color-light);
+  border-radius: 3px;
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  color: inherit;
+  background-color: transparent;
+  opacity: 0.7;
+  padding: 0.4rem;
+}
+
+body.dark-mode .theme-toggle {
+  border-color: var(--border-color-dark);
+}
+
+.theme-toggle:hover {
+  opacity: 1;
+}
+
+.theme-toggle:focus {
+  outline: none;
+  opacity: 1;
+}
+
+/* Letter icon styles */
+.theme-toggle span {
+  position: absolute;
+  transition: opacity 0.3s ease;
+  font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.theme-toggle .light-icon {
+  font-weight: 300;
+}
+
+.theme-toggle .dark-icon {
+  font-weight: 700;
+}
+
+body:not(.dark-mode) .theme-toggle .light-icon {
+  opacity: 0;
+}
+
+body:not(.dark-mode) .theme-toggle .dark-icon {
+  opacity: 1;
+}
+
+body.dark-mode .theme-toggle .light-icon {
+  opacity: 1;
+}
+
+body.dark-mode .theme-toggle .dark-icon {
+  opacity: 0;
+}
+
+/* Additional dark mode styles for specific elements */
+body.dark-mode .sidenote,
+body.dark-mode .marginnote {
+  color: #bbb;
+}
+
+body.dark-mode code,
+body.dark-mode pre > code {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+/* Ensure figures and images work well in dark mode */
+body.dark-mode figure img {
+  filter: brightness(0.9) contrast(1.1);
+}
+
+/* Heading link styles */
+h1 a, h2 a, h3 a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dotted transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+  border-bottom-color: currentColor;
+}
+
+/* Top controls container */
+.top-controls {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Top navigation */
+.top-nav {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
+}
+
+.top-nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #888;
+  transition: color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.top-nav a:hover {
+  color: #555;
+  transform: translateY(-2px);
+}
+
+.top-nav a.current-page {
+  font-weight: bold;
+  color: var(--text-color-light);
+}
+
+.top-nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  transform-origin: bottom right;
+}
+
+.top-nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.top-nav a.current-page::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+body.dark-mode .top-nav a {
+  color: #888;
+}
+
+body.dark-mode .top-nav a:hover {
+  color: #aaa;
+}
+
+body.dark-mode .top-nav a.current-page {
+  color: var(--text-color-dark);
+}
+
+/* Reset article padding since nav is no longer full-width */
+article {
+  padding-top: 5rem;
+}
+
+/* Ensure anchor links work with fixed header offset */
+:target {
+  scroll-margin-top: 70px;
+}
+
+/* CV Item styles for education and employment sections */
+.cv-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  position: relative;
+  width: 55%;
+  transition: opacity var(--transition-speed) ease;
+}
+
+/* Add staggered animation for sections */
+section {
+  animation: slideIn 0.5s ease-out;
+  animation-fill-mode: both;
+}
+
+section:nth-child(1) { animation-delay: 0.1s; }
+section:nth-child(2) { animation-delay: 0.2s; }
+section:nth-child(3) { animation-delay: 0.3s; }
+section:nth-child(4) { animation-delay: 0.4s; }
+section:nth-child(5) { animation-delay: 0.5s; }
+section:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth transitions for headings */
+h1, h2, h3 {
+  transition: transform var(--transition-speed) ease,
+              color var(--transition-speed) ease;
+}
+
+h2:hover, h3:hover {
+  transform: translateX(5px);
+}
+
+/* Override bold font style for margin notes within CV items */
+.cv-item .marginnote,
+.cv-item .sidenote {
+  font-weight: normal;
+}
+
+/* Only show toggle on PC screens */
+label.margin-toggle:not(.sidenote-number) {
+  display: inline;
+}
+
+@media (max-width: 760px) {
+  label.margin-toggle:not(.sidenote-number) {
+    display: none;
+  }
+}
+
+.cv-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color-light);
+}
+
+.cv-item:last-child::after {
+  display: none;
+}
+
+.cv-item-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.cv-item-org {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+
+.cv-item-details {
+  font-size: 1.4rem;
+  color: #666;
+}
+
+body.dark-mode .cv-item::after {
+  border-bottom-color: var(--border-color-dark);
+}
+
+body.dark-mode .cv-item-details {
+  color: #999;
+}
+
+/* Footnote styles */
+.footnote {
+  font-size: 1rem;
+  font-style: italic;
+  color: #777;
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-color-light);
+}
+
+body.dark-mode .footnote {
+  color: #999;
+  border-top: 1px solid var(--border-color-dark);
+}
