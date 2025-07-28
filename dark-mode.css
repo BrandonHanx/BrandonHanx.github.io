@@ -76,7 +76,7 @@ body.dark-mode hr {
   position: fixed;
   top: 1.5rem;
   right: 1.5rem;
-  z-index: 999;
+  z-index: 1000; /* Higher than top-controls to ensure it's always on top */
   background: none;
   border: 1px solid var(--border-color-light);
   border-radius: 3px;
@@ -177,6 +177,18 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   display: flex;
   align-items: center;
   gap: 2rem;
+  transition: opacity 0.15s ease, transform 0.15s ease; /* Faster transition for nav fade-out */
+}
+
+/* Visibility classes for top controls */
+.top-controls.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.top-controls.hidden {
+  opacity: 0;
+  transform: translateY(-100%);
 }
 
 /* Top navigation */
@@ -306,6 +318,11 @@ label.margin-toggle:not(.sidenote-number) {
 @media (max-width: 760px) {
   label.margin-toggle:not(.sidenote-number) {
     display: none;
+  }
+
+  /* Adjust cv-item width on mobile */
+  .cv-item {
+    width: 100%;
   }
 }
 

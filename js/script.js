@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Set up smooth page transitions
   setupPageTransitions();
+
+  // Set up scroll behavior for top navigation
+  setupScrollBehavior();
 });
 
 // Set up smooth page transitions
@@ -76,3 +79,53 @@ document.addEventListener('DOMContentLoaded', function() {
     timestampElement.textContent = now.toLocaleDateString('en-US', options);
   }
 });
+
+// Function to handle scroll behavior for top navigation
+function setupScrollBehavior() {
+  const topControls = document.querySelector('.top-controls');
+  if (!topControls) return; // Exit if element doesn't exist
+
+  let lastScrollTop = 0;
+  let scrollTimeout;
+
+  // Show the top controls initially
+  topControls.classList.add('visible');
+
+  window.addEventListener('scroll', function() {
+    // Clear the timeout if it exists
+    if (scrollTimeout) {
+      clearTimeout(scrollTimeout);
+    }
+
+    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    // Show controls when scrolling up, hide when scrolling down
+    if (currentScrollTop > lastScrollTop && currentScrollTop > 100) {
+      // Scrolling down and not at the top
+      topControls.classList.remove('visible');
+      topControls.classList.add('hidden');
+    } else {
+      // Scrolling up or at the top
+      topControls.classList.remove('hidden');
+      topControls.classList.add('visible');
+    }
+
+    lastScrollTop = currentScrollTop;
+
+    // Hide controls after 2 seconds of no scrolling
+    scrollTimeout = setTimeout(function() {
+      if (currentScrollTop > 100) {
+        topControls.classList.remove('visible');
+        topControls.classList.add('hidden');
+      }
+    }, 2000);
+  });
+
+  // Show controls when hovering near the top of the screen
+  document.addEventListener('mousemove', function(e) {
+    if (e.clientY < 60) {
+      topControls.classList.remove('hidden');
+      topControls.classList.add('visible');
+    }
+  });
+}
