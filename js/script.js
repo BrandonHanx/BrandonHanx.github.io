@@ -64,11 +64,12 @@ function toggleTheme() {
   }
 }
 
-// Function to update the timestamp in the footnote
+// Function to update the timestamp in the footnote with the last modified date
 document.addEventListener('DOMContentLoaded', function() {
   const timestampElement = document.getElementById('last-updated');
   if (timestampElement) {
-    const now = new Date();
+    // Use document.lastModified to get the last modified date of the current document
+    const lastModified = new Date(document.lastModified);
     const options = {
       year: 'numeric',
       month: 'long',
@@ -76,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
       hour: '2-digit',
       minute: '2-digit'
     };
-    timestampElement.textContent = now.toLocaleDateString('en-US', options);
+    timestampElement.textContent = lastModified.toLocaleDateString('en-US', options);
   }
 });
 
