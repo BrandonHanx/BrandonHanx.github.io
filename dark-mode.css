@@ -2,8 +2,8 @@
 :root {
   --background-color-light: #fffff8;
   --text-color-light: #111;
-  --link-color-light: #111;
-  --link-hover-color-light: #000;
+  --link-color-light: #254863;
+  --link-hover-color-light: #173247;
   --border-color-light: #ccc;
 
   --background-color-dark: #1a1a1a;
@@ -102,8 +102,19 @@ body.dark-mode .theme-toggle {
 }
 
 .theme-toggle:focus {
-  outline: none;
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
   opacity: 1;
+}
+
+.theme-toggle:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* Letter icon styles */
@@ -168,6 +179,45 @@ h1 a:hover, h2 a:hover, h3 a:hover {
   border-bottom-color: currentColor;
 }
 
+/* Restrained CV-inspired accents and publication hierarchy */
+.sidenote-number,
+.sidenote-number::after {
+  color: var(--link-color-light);
+}
+
+body.dark-mode .sidenote-number,
+body.dark-mode .sidenote-number::after {
+  color: var(--link-color-dark);
+}
+
+section > p.publication {
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+  line-height: 1.55rem;
+}
+
+.paper-title {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.paper-title:hover,
+.paper-title:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.06em;
+}
+
+.paper-venue {
+  color: #6b7074;
+  font-size: 1.05rem;
+  line-height: 1.35rem;
+}
+
+body.dark-mode .paper-venue {
+  color: #a7adb1;
+}
+
 /* Top controls container */
 .top-controls {
   position: fixed;
@@ -200,7 +250,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 .top-nav a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   color: #888;
   transition: color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
   position: relative;

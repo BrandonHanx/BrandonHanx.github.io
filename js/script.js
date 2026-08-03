@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Set up scroll behavior for top navigation
   setupScrollBehavior();
+
+  // Keep the theme toggle state accessible to assistive technology.
+  updateThemeToggleState();
 });
 
 // Set up smooth page transitions
@@ -62,6 +65,16 @@ function toggleTheme() {
     body.classList.add('dark-mode');
     localStorage.setItem('theme', 'dark');
   }
+  updateThemeToggleState();
+}
+
+function updateThemeToggleState() {
+  const toggle = document.querySelector('.theme-toggle');
+  if (!toggle) return;
+
+  const isDark = document.body.classList.contains('dark-mode');
+  toggle.setAttribute('aria-pressed', String(isDark));
+  toggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
 }
 
 // Function to update the timestamp in the footnote with the last modified date
