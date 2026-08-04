@@ -73,11 +73,19 @@ function toggleTheme() {
 
 function updateThemeToggleState() {
   const toggle = document.querySelector('.theme-toggle');
-  if (!toggle) return;
-
   const isDark = document.body.classList.contains('dark-mode');
-  toggle.setAttribute('aria-pressed', String(isDark));
-  toggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  const favicon = document.getElementById('site-favicon');
+
+  if (toggle) {
+    toggle.setAttribute('aria-pressed', String(isDark));
+    toggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+  }
+
+  if (favicon) {
+    favicon.href = isDark
+      ? 'assets/flow-mark-dark.svg'
+      : 'assets/flow-mark-light.svg';
+  }
 }
 
 // Function to update the timestamp in the footnote with the last modified date
