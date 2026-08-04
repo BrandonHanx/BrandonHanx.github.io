@@ -71,6 +71,75 @@ body.dark-mode hr {
   border-top: 1px solid var(--border-color-dark);
 }
 
+/* Subtle topographic field inspired by representation landscapes */
+.background-effect {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.contour-field {
+  position: absolute;
+  top: -6vh;
+  right: -3vw;
+  width: min(50rem, 55vw);
+  height: 112vh;
+  color: var(--link-color-light);
+  opacity: 0.13;
+  -webkit-mask-image: radial-gradient(ellipse 82% 94% at 76% 50%, #000 0%, #000 68%, transparent 100%);
+  mask-image: radial-gradient(ellipse 82% 94% at 76% 50%, #000 0%, #000 68%, transparent 100%);
+  will-change: transform;
+}
+
+.contour-field path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 0.85;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.72;
+  vector-effect: non-scaling-stroke;
+}
+
+.contour-field > path:nth-of-type(3n + 1) {
+  stroke-width: 1.25;
+  opacity: 0.95;
+}
+
+.contour-field > path:nth-of-type(3n + 2) {
+  opacity: 0.52;
+}
+
+.contour-highlights use {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-dasharray: 0.022 0.978;
+  opacity: 0.65;
+  animation: contour-trace 28s linear infinite;
+}
+
+.contour-highlights use:nth-child(2) { animation-duration: 34s; animation-delay: -9s; }
+.contour-highlights use:nth-child(3) { animation-duration: 25s; animation-delay: -17s; }
+.contour-highlights use:nth-child(4) { animation-duration: 32s; animation-delay: -5s; }
+.contour-highlights use:nth-child(5) { animation-duration: 27s; animation-delay: -21s; }
+.contour-highlights use:nth-child(6) { animation-duration: 36s; animation-delay: -14s; }
+.contour-highlights use:nth-child(7) { animation-duration: 30s; animation-delay: -24s; }
+.contour-highlights use:nth-child(8) { animation-duration: 38s; animation-delay: -7s; }
+
+body.dark-mode .contour-field {
+  color: var(--link-color-dark);
+  opacity: 0.115;
+}
+
+@keyframes contour-trace {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+
 /* Theme toggle button */
 .theme-toggle {
   position: fixed;
@@ -303,6 +372,8 @@ body.dark-mode .top-nav a.current-page {
 
 /* Reset article padding since nav is no longer full-width */
 article {
+  position: relative;
+  z-index: 1;
   padding-top: 5rem;
 }
 
@@ -366,6 +437,16 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 @media (max-width: 760px) {
+  .contour-field {
+    right: -12vw;
+    width: 82vw;
+    opacity: 0.075;
+  }
+
+  body.dark-mode .contour-field {
+    opacity: 0.06;
+  }
+
   label.margin-toggle:not(.sidenote-number) {
     display: none;
   }
@@ -373,6 +454,18 @@ label.margin-toggle:not(.sidenote-number) {
   /* Adjust cv-item width on mobile */
   .cv-item {
     width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contour-field,
+  .contour-field path,
+  .contour-highlights use {
+    animation: none;
+  }
+
+  .contour-highlights {
+    display: none;
   }
 }
 
